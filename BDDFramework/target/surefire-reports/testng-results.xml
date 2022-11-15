@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="458903" started-at="2022-11-03T21:00:26 IST" finished-at="2022-11-03T21:08:05 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:getFailedScenarioRerun.TestRunner@1fc2b765]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@289d1c02]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="458903" started-at="2022-11-03T21:00:26 IST" finished-at="2022-11-03T21:08:05 IST">
+      <class name="com.VTiger.Lead.TestCases.LeadTest">
+        <test-method status="PASS" signature="preRequisite()[pri:0, instance:com.VTiger.Lead.TestCases.LeadTest@eafc191]" name="preRequisite" duration-ms="102488" started-at="2022-11-03T21:00:26 IST" finished-at="2022-11-03T21:02:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method status="PASS" signature="createLeadTest()[pri:1, instance:com.VTiger.Lead.TestCases.LeadTest@eafc191]" name="createLeadTest" duration-ms="7105" started-at="2022-11-03T21:02:09 IST" finished-at="2022-11-03T21:02:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeadTest -->
+        <test-method status="PASS" signature="verifyCreatedLead()[pri:2, instance:com.VTiger.Lead.TestCases.LeadTest@eafc191]" name="verifyCreatedLead" duration-ms="1549" started-at="2022-11-03T21:02:16 IST" finished-at="2022-11-03T21:02:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreatedLead -->
+        <test-method status="PASS" signature="deleteDeadTest()[pri:3, instance:com.VTiger.Lead.TestCases.LeadTest@eafc191]" name="deleteDeadTest" duration-ms="1032" started-at="2022-11-03T21:02:17 IST" finished-at="2022-11-03T21:02:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDeadTest -->
+        <test-method status="PASS" signature="verifyLeadDeletedTest()[pri:4, instance:com.VTiger.Lead.TestCases.LeadTest@eafc191]" name="verifyLeadDeletedTest" duration-ms="32445" started-at="2022-11-03T21:02:18 IST" finished-at="2022-11-03T21:02:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeadDeletedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:5, instance:com.VTiger.Lead.TestCases.LeadTest@eafc191]" name="tearDown" duration-ms="6890" started-at="2022-11-03T21:02:51 IST" finished-at="2022-11-03T21:02:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.VTiger.Lead.TestCases.LeadTest -->
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@289d1c02]" name="setUpClass" is-config="true" duration-ms="422" started-at="2022-11-03T21:06:28 IST" finished-at="2022-11-03T21:06:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@289d1c02]" name="runScenario" duration-ms="48110" started-at="2022-11-03T21:06:29 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-03T21:07:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test the Actitime login functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Actitime Login Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@289d1c02]" name="runScenario" duration-ms="37645" started-at="2022-11-03T21:07:17 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-03T21:07:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test the login functionality of OrnageHRM with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[OrangeHRM Login Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@289d1c02]" name="runScenario" duration-ms="8609" started-at="2022-11-03T21:07:54 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-03T21:08:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test The Swaglab Application login functinality with diffrent user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[SwagLab Login functionality  # It is contains TCs related to swaglab Login page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@289d1c02]" name="tearDownClass" is-config="true" duration-ms="1965" started-at="2022-11-03T21:08:03 IST" finished-at="2022-11-03T21:08:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+      <class name="getFailedScenarioRerun.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:getFailedScenarioRerun.TestRunner@1fc2b765]" name="setUpClass" is-config="true" duration-ms="3132" started-at="2022-11-03T21:02:58 IST" finished-at="2022-11-03T21:03:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:getFailedScenarioRerun.TestRunner@1fc2b765]" name="runScenario" duration-ms="66740" started-at="2022-11-03T21:03:01 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-03T21:04:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create new lead with name as "Smith""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create lead in Vtiger application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:getFailedScenarioRerun.TestRunner@1fc2b765]" name="runScenario" duration-ms="44400" started-at="2022-11-03T21:04:08 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-03T21:04:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create new lead with name as "Jeff""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create lead in Vtiger application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:getFailedScenarioRerun.TestRunner@1fc2b765]" name="runScenario" duration-ms="83790" started-at="2022-11-03T21:04:52 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-03T21:06:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete all leads"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create lead in Vtiger application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:getFailedScenarioRerun.TestRunner@1fc2b765]" name="tearDownClass" is-config="true" duration-ms="12414" started-at="2022-11-03T21:06:16 IST" finished-at="2022-11-03T21:06:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- getFailedScenarioRerun.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
